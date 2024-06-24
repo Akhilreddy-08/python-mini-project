@@ -5,7 +5,7 @@ def main():
     print("Select a range by entering two integers (X and Y).")
     X, Y = map(int, input("Enter the lower and upper bounds (X Y): ").split())
 
-    # Generate a random number within the specified range
+    
     secret_number = random.randint(X, Y)
     attempts = 0
 
